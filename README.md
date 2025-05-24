@@ -30,15 +30,19 @@ This gives you time for breaks and final adjustments. The implementation demonst
 3. Recipients verify both hash and signature
 4. Any modification invalidates the message
 
+
 ## Running the Demo
 ```bash
 pip install cryptography
 python demo.py
+python advance_vanet.py
+```
 
 
-# Advanced VANET Security Simulator
+##  Advanced VANET Security Simulator
 
 ![alt text](image.png)
+
 
 *Example output visualization*
 
