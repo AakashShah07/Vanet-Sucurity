@@ -34,3 +34,42 @@ This gives you time for breaks and final adjustments. The implementation demonst
 ```bash
 pip install cryptography
 python demo.py
+
+
+# Advanced VANET Security Simulator
+
+![alt text](image.png)
+
+*Example output visualization*
+
+A comprehensive implementation of secure Vehicular Ad-Hoc Network (VANET) communications with advanced security features and attack simulations.
+
+## Key Features
+
+### Security Mechanisms
+- **Hybrid Cryptography**
+  - ECDSA for digital signatures
+  - ECDHE for key exchange
+  - AES-GCM for message encryption
+  - PBKDF2 key derivation
+- **Dynamic Trust Management**
+  - Behavior-based reputation scoring
+  - Adaptive message acceptance thresholds
+  - Malicious node detection
+
+### Network Components
+- Realistic vehicle movement models
+- Geographical routing with 300m range
+- Periodic safety beacon broadcasts
+- Neighborhood discovery protocol
+
+### Attack Simulations
+- **Sybil Attacks**: Fake identity generation
+- **Greyhole Attacks**: Selective message dropping
+- **Wormhole Attacks**: Message tunneling
+- Configurable attack probabilities
+
+### Performance Monitoring
+- Real-time metrics collection
+- Automated Pandas reporting
+- Matplotlib visualizations
